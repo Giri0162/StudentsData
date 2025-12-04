@@ -7,7 +7,6 @@ internal class Program
         static void Main(string[] args)
         {
             StudentsModify sr = new StudentsModify();
-            // StudentsInfo si = new StudentsInfo();
 
             sr.getStudents().AddRange(FileManager.Load());
 
@@ -26,8 +25,6 @@ internal class Program
                 case 1:
                         Console.Write("Enter Student Id: ");
                         int id = int.Parse(Console.ReadLine());
-                        
-                        
 
                         Console.Write("Enter Name: ");
                         string name = Console.ReadLine();
@@ -42,9 +39,7 @@ internal class Program
                         Course = course
                     };
                     
-
                         sr.AddStudentDetails(s);
-                    
                         break;
 
                 case 2:
@@ -77,13 +72,10 @@ internal class Program
                     default:
                     Console.WriteLine("Invalid choice!");
                     break;
-
+                    
                     }
-
-
             }
         }
-       
 }
 
 

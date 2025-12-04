@@ -10,9 +10,15 @@ public class StudentsModify{
 
     public void AddStudentDetails(StudentsInfo s)
     {
-        
-        li.Add(s);
-
+        if(li.Any(x => x.Id == s.Id))
+            {
+                Console.WriteLine("This Id is Already Exists!");
+            }
+            else
+            {
+                li.Add(s);
+                Console.WriteLine("Student Details Added Succesfully");
+            }     
     }
 
     public List<StudentsInfo> getStudents()

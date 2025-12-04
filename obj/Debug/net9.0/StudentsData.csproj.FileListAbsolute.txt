@@ -26,3 +26,4 @@ c:\Users\user\OneDrive\Desktop\StudentsData\obj\Debug\net9.0\refint\StudentsData
 c:\Users\user\OneDrive\Desktop\StudentsData\obj\Debug\net9.0\StudentsData.pdb
 C:\Users\user\OneDrive\Desktop\StudentsData\obj\Debug\net9.0\StudentsData.genruntimeconfig.cache
 C:\Users\user\OneDrive\Desktop\StudentsData\obj\Debug\net9.0\ref\StudentsData.dll
+c:\Users\user\OneDrive\Desktop\StudentsData\obj\Debug\net9.0\StudentsData.sourcelink.json
