@@ -42,5 +42,27 @@ public class StudentsModify{
         return false;
     }
 
+    public bool EditStudentDetail(int id,string newname = null,string newcourse = null,long? newphone = null,string newaddress= null)
+        {
+            var std = SearchStudent(id);
+
+            if(std == null)
+            return false;
+
+            if (newname != null)
+        std.Name = newname;
+
+          if (newcourse != null)
+        std.Course = newcourse;
+
+          if (newphone != null)
+        std.Phone = (long)newphone;
+
+          if (newaddress != null)
+        std.Address = newaddress;
+        
+        return true;
+        }
+
 }
 }
